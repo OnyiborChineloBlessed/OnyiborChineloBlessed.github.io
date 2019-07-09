@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" type="icon" href="pictures/logo.png">
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/media.css">
+    <title>Chinelo Blessed</title>
+</head>
+<body class="about-body">
+    <header class="about-menu" id="about-menu"> <span class="fa fa-navicon nav-menu uncopy" id="start-menu" onclick="toggle_menu()" title="menu"></span> &nbsp;<span class="ht">About me</span></header>
+    <div class="about-section">
+        <div class="about-section-one">
+            <div class="about-section-one-text">
+                <br>
+                <h2>About me</h2>
+                <center><div class="about-underline"></div></center>
+                    <div class="about-main-text">
+                        Am a designer and a writter, i use numerous softwares to write and design, articles, logos, banners, posters and dynamic graphics.
+                  <center><button id="contact-button" onclick="contactModal()">Contact</button></center>
+               </div>
+             </div>
+           </div>
+          <div class="about-section-two" style="background-image: url('pictures/images/about.png')">
+       <div id="background-cover" class="background-cover uncopy"></div>
+    </div>
+</div>
+<div class="mobile-image" style="background-image: url('pictures/images/about.png')"></div>
+<h1 class="service-head"><span class="head-style">My</span> Services</h1>
+
+  <div class="card-section">
+    <div class="card-one">
+      <li class="list-head">
+       <span class="fa fa-edit"></span>
+        Article writting
+       </li>
+       <li class="list-data">App: Micro Softword</li>
+       <li class="list-data">Rating: <span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star-half-o"></span><span class="fa fa-star-o"></span></li>
+       <li class="list-data">Accuracy: 95%</li>
+       <li class="list-data">Speed: 89%</li>
+       <li class="list-data"><center><button class="about-btn-one">View</button></center></li>
+    </div>
+
+<div class="card-two">
+   <li class="list-head">
+     <span class="fa fa-paint-brush"></span>
+      Graphics
+    </li>
+    <li class="list-data">App: CorelDRAW</li>
+    <li class="list-data">Rating: <span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span></li>
+    <li class="list-data">Accuracy: 95%</li>
+    <li class="list-data">Speed: 89%</li>
+    <li class="list-data"><center><button class="about-btn-two">View</button></center></li>
+</div>
+
+<div class="card-three">
+  <li class="list-head">
+    <span class="fa fa-photo"></span>
+        Photo Editing
+       </li>
+       <li class="list-data">App: PhotoShop</li>
+       <li class="list-data">Rating: <span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star-half-o"></span></li>
+       <li class="list-data">Accuracy: 95%</li>
+       <li class="list-data">Speed: 89%</li>
+       <li class="list-data"><center><button class="about-btn-three">View</button></center></li>
+    </div>
+</div>
+        
+<div class="side-navigation uncopy">
+        <p title="close" class="fa fa-close" id="close" onclick="toggle_menu()"></p>
+            <h2><img src="pictures/logo.png" class='logo uncopy'></h2><br>
+                <h2>Menu</h2><br>
+                <div class="list-pack">
+                <li onclick="navigate('index.html')"><span class="fa fa-home"></span> &nbsp;&nbsp;Home</li>
+                <li onclick="navigate('gallery.html')"><span class="fa fa-photo"></span> &nbsp;&nbsp;Gallery</li>
+                <li class="active"> <span class="fa fa-user"></span>  &nbsp;&nbsp;&nbsp;About</li>
+                <li onclick="contactModal()"> <span class="fa fa-rss"></span> &nbsp;&nbsp;Contact</li>
+            </div>
+        </div>
+    <div class="modal-nav"></div>
+
+    <div class="contact-modal">
+     <span class="close fa fa-close" onclick="contactModal()"></span>
+      <div class="modal-contact-box">
+          <h2 class="modal-contact-header"><span class="fa fa-rss"></span> Contact</h2>
+          <li class="contact-list-one"> <span class="fa fa-facebook-square" id="facebook-icon"></span> &nbsp;&nbsp;<span id="facebook-info"></span></li>
+          <li class="contact-list-two"> <span class="fa fa-yahoo" id="yahoo-icon"></span> &nbsp;&nbsp;<span id="yahoo-info"></span></li>
+          <li class="contact-list-three"> <span class="fa fa-whatsapp" id="whatsapp-icon"></span> &nbsp;&nbsp;<span id="whatsapp-info"></span></li>
+          <li class="contact-list-four"> <center><button onclick="contactModal()">Exit</button></center> </li>
+      </div>
+  </div>
+
+        <div class="hide">
+          <span class="disapear close fa fa-close"></span>
+           <div class="modal-box-detail">
+             <h2 class="modal-details-head"></h2>
+              <p class="modal-text"></p>
+              <center><button class="disapear exit">Exit</button></center>
+              </div>
+        </div>
+</body>
+    
+<script src="javascript/scripts.js"></script>
+    <script src="javascript/css.js"></script>
+    <script src="javascript/modal.js"></script>
+    <script src="javascript/calls.js"></script>
+    <script src="javascript/menu.js"></script>
+    <script src="javascript/exit.js"></script>
+</html>
+
+
